@@ -62,7 +62,6 @@ def download_audio(video_url: str, output_path: str = ".") -> str | None:
         print(f"An error occurred during download: {e}")
         return None
 
-
 # Testing Block
 if __name__ == '__main__':
     test_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
